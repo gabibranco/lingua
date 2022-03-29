@@ -1,8 +1,8 @@
 [
   {
-    "question": "did you speak a language aside from English at home?",
+    "text": "did you speak a language aside from English at home?",
+    "component": "button",
     "options": [
-      "button",
       "yes",
       "no"
     ]

@@ -8,11 +8,12 @@ import Question from './components/Question.js';
 
 class App extends React.Component {
   render() {
+    let question = 'did you speak a language aside from English at home?'
     return (
       <div className='App'>
         <Header />
         {/* <Welcome /> */}
-        <Question />
+        <Question text={question} />
       </div>
     );
   }

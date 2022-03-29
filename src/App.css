@@ -16,24 +16,6 @@
   }
 }
 
-.question {
-  background: rgba(133, 0, 43, 0.4);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 60vw;
-  border-radius: 3px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 53px;
-  margin: auto;
-  text-align: center;
-  letter-spacing: -0.02em;
-  /* yellow */
-  color: #FFD9A1;
-  /* mute-pink-shadow */
-  text-shadow: 2px 2px 1px #E64897;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -56,4 +38,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  background: linear-gradient(99.44deg, #E64897 0%, #FFD9A1 95.77%);
+  box-shadow: 0px 4px 4px rgba(252, 73, 66, 0.39);
+  border-radius: 4px 4px 80px 80px;
+}
+
+button p {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #FFD9A1;
+
+  border: 3px solid #FC4942;
+}
+
+.button-right p {
+  color: #FC4942;
+  border: 3px solid #FFD9A1;
+}
+
+.button-right {
+  background: linear-gradient(225.31deg, #E64897 0%, #FFD9A1 86.75%);
+  box-shadow: 0px 4px 4px rgba(252, 73, 66, 0.39);
+  border-radius: 4px 4px 80px 80px;
+}
+
+.question {
+  background: rgba(133, 0, 43, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 60vw;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 53px;
+  margin: auto;
+  text-align: center;
+  letter-spacing: -0.02em;
+  /* yellow */
+  color: #FFD9A1;
+  /* mute-pink-shadow */
+  text-shadow: 2px 2px 1px #E64897;
 }
