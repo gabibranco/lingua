@@ -1,10 +1,10 @@
 [
   {
     "text": "did you speak a language aside from English at home?",
-    "component": "button",
+    "componentType": "button",
     "options": [
-      "yes",
-      "no"
+      "YES",
+      "NO"
     ]
   }
 ]
