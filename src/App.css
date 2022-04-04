@@ -36,8 +36,8 @@
 button {
   background: linear-gradient(99.44deg, #E64897 0%, #FFD9A1 95.77%);
   box-shadow: 0px 4px 4px rgba(252, 73, 66, 0.39);
-  border-radius: 4px 4px 32vmin 32vmin;
-  width: 32vmin;
+  border-radius: 4px 4px 24vmin 24vmin;
+  width: 24vmin;
   height: 8vmin;
   font-family: 'Futura';
   margin-top: 2vmin;
